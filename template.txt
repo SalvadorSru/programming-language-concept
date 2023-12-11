@@ -1,0 +1,11 @@
+- str Saludo = "Saludo"
+
+· str nombre
+
+- SetNombre (new_nombre) -> {
+    nombre = new_nombre
+}
+
+- () -> {
+    $print(Saludo + nombre)
+}
